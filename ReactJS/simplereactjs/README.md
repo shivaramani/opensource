@@ -10,3 +10,5 @@
         - refer the above javascript files
         - Provide a container div for rendering the data
         - script using babel to render content on the "container" component
+
+## Refer "Concepts.md"         
