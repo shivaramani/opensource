@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Simple React JS - Component</title>
+    <title>Simple React JS - Multi component</title>
     <script src="../js/react.min.js"></script>
     <script src="../js/react-dom.min.js"></script>
     <script src="../js/browser.min.js"></script>
@@ -15,10 +15,20 @@
     <script type="text/babel">
         var MyComponent = React.createClass({
             render: function() {
-                return (<h2>Rendered from a component</h2>);
+                return (
+                    <div>
+                        <h2>Rendered from a component</h2>
+                        <p>Next para line </p>
+                    </div>
+                );
             }
         });
-        ReactDOM.render(<MyComponent />, document.getElementById('container'));
+        ReactDOM.render(
+            <div>
+                <MyComponent />
+                <MyComponent />
+            </div>,
+            document.getElementById('container'));
     </script>
 
 </body>

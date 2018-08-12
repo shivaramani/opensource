@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple React JS - Using Refs</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <script src="../js/react.min.js"></script>
+    <script src="../js/react-dom.min.js"></script>
+    <script src="../js/browser.min.js"></script>
+</head>
+<body>
+
+    <div id="container"></div>
+
+    <script type="text/babel">
+         var Comment = React.createClass({
+            getInitialState: function(){
+                return{editing: false}
+            },
+            edit: function(){
+                this.setState({editing: true});
+            },
+            remove: function(){
+                //this.setState({editing: false});
+            },
+            save: function(){
+                var val = this.refs.textAreaText.value;
+                Console.log('value of textarea - ' + val);
+                this.setState({editing: false});
+            },
+
+            renderNormal: function(){
+                return(
+                    <div className="commentContainer">
+                            <div className="commentText">{this.props.children}</div>
+                            <button onClick={this.edit} className="button-primary">Edit</button>
+                            <button onClick={this.remove} className="button-danger">Remove</button>
+                    </div>
+                );
+            },
+            renderForm: function(){
+                return(
+                    <div className="commentContainer">
+                            <textarea ref="textAreaText" defaultValue={this.props.children}></textarea>
+                            <button onClick={this.save} className="button-success">Save</button>
+                    </div>
+                );
+            },
+
+            render: function(){
+                if(this.state.editing){
+                    return this.renderForm();
+                }
+                else{
+                    return this.renderNormal();
+                }
+            }
+        });
+
+        ReactDOM.render(
+            <div className="board">
+                <Comment>Avatar </Comment>
+                <Comment>Pilot </Comment>
+            </div>,
+            document.getElementById("container")
+        );
+
+    </script>
+
+</body>
+</html>
