@@ -36,3 +36,27 @@ body {
   .active {
     background-color: #0099FF;
   }
+
+      
+  .div-table {
+    display: table;         
+    width: auto;         
+    background-color: #eee;         
+    border: 1px solid #666666;         
+    border-spacing: 5px; 
+  }
+  .div-table-row {
+    display: table-row;
+    width: auto;
+    clear: both;
+  }
+  .div-table-col {
+    float: left; 
+    display: table-column;         
+    width: 200px;         
+    background-color: #ccc;  
+  }
+  
+  .cursorHand{
+    cursor: pointer;
+  }

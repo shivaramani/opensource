@@ -28,3 +28,20 @@
         - extend Main class and add the attached code accordingly for the HashRouter
         
     - create index.js - import React, ReactDOM and Main etc and ReactDOM render for the Main root/main
+
+    # to run the app
+
+    - npm install
+    - npm superagent
+    - npm start
+
+    - to build an deploy/publish (ex: to aws) - "npm run build" and copy the "build" folder contents
+
+    ## 8/13/2018 implementation
+
+    - Modify router link navigation (main.js)
+    - make REST call using using superagent - to a sample aws apigateway/lambda
+    - pass props of rest call response to other components
+    - implement componentWillReceiveProps, componentWillMount events (inside Menu1 component) to render contents
+
+    
