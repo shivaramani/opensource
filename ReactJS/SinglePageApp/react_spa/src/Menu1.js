@@ -1,6 +1,5 @@
    import React, { Component } from "react";
 import { render } from 'react-dom';
-import superagent from 'superagent'; 
 
 export default class Menu1 extends Component {
   

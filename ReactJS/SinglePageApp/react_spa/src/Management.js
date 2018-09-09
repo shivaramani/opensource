@@ -8,7 +8,6 @@ import {
 import Home from "./Home";
 import Menu1 from "./Menu1";
 import Contact from "./Contact";
-import superagent from "superagent";
  
 export default class Management extends Component {
   constructor(props){

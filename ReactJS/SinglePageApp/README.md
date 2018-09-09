@@ -1,4 +1,4 @@
--- Create a single page sample application
+x-- Create a single page sample application
 
 - Install NPM
 
@@ -44,4 +44,3 @@
     - pass props of rest call response to other components
     - implement componentWillReceiveProps, componentWillMount events (inside Menu1 component) to render contents
 
-    
