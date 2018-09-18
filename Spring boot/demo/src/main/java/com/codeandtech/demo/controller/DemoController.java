@@ -5,6 +5,7 @@ package com.codeandtech.demo.controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+//@Controller
 @RestController
 public class DemoController{
     
@@ -13,8 +14,7 @@ public class DemoController{
     private static final String DEMO_SAYHELLO = "/demo/sayhello";
 
     @RequestMapping(DEMO_SAYHELLO)
-    public String sayhello() {
-        return "Hello From Demo Controller";
+    public String sayhello() {return "Hello From Demo Controller";
     }    
 
 }
