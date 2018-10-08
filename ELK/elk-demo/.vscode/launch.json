@@ -6,7 +6,7 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - ELKDemoServiceApplication",
+            "name": "ELKDemoServiceApplication",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
@@ -51,17 +51,6 @@
             "stopOnEntry": false,
             "mainClass": "",
             "args": ""
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-CustomerServiceApplication<spring-customer-service>",
-            "request": "launch",
-            "cwd": "${workspaceFolder}",
-            "console": "internalConsole",
-            "stopOnEntry": false,
-            "mainClass": "org.appfabs.sample.logaggregation.customer.service.CustomerServiceApplication",
-            "args": "",
-            "projectName": "spring-customer-service"
         },
         {
             "type": "java",

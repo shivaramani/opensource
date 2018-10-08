@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
-//@ComponentScan(value ="org.codeandtech.elkdemo.logaggregation.**")
+@ComponentScan(value ="org.codeandtech.elkdemo.logaggregation.**")
 public class ELKDemoServiceApplication 
 {
     public static void main( String[] arguments )
