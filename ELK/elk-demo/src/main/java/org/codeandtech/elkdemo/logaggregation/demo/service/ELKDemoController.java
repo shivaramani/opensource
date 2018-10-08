@@ -36,7 +36,7 @@ public class ELKDemoController{
     public String WriteLogs(){
         int i = 0;
 		while (true) {
-			if (i++ > 500) {
+			if (i++ > 5) {
 				break;
 			}
             
@@ -48,7 +48,7 @@ public class ELKDemoController{
             logger.info("info message DemoController - WriteLogs - log file name is {}", loggingFileName);			
             
             try {
-                Thread.sleep(30000);
+                Thread.sleep(5000);
             } catch (InterruptedException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
