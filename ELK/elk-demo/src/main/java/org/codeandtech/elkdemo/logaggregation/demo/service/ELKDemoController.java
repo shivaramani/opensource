@@ -28,6 +28,7 @@ public class ELKDemoController{
 
     @RequestMapping(DEMO_SAYHELLO)
     public String sayhello() {
+        logger.info("info message DemoController - WriteLogs - log file name is {}", loggingFileName);			
         return "Hello From Demo Controller";
     }   
     
@@ -45,7 +46,7 @@ public class ELKDemoController{
             //logger.error("error message DemoController - WriteLogs - log file name is {}", loggingFileName);			
             
             logger.info("info message DemoController - WriteLogs - log file name is {}", loggingFileName);			
-                    
+            
             try {
                 Thread.sleep(30000);
             } catch (InterruptedException e) {
