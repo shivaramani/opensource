@@ -1,0 +1,593 @@
+!SESSION 2018-10-07 21:09:54.108 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/shiva/Documents/Code/GIT/OpenSource/ELK/elk-demo/~/.vscode-root/User/workspaceStorage/a7a95f480a9d55f0b91e976d3df2a656/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:10:09.766
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:10:10.105
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:10:10.140
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:10:10.141
+!MESSAGE Initializing Java Language Server 0.26.0.201810021912
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:10:10.259
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:10:10.805
+!MESSAGE Creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:10:12.260
+!MESSAGE Finished creating the default Java project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:10:12.852
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2018-10-07 21:10:12.899
+!MESSAGE Initialization failed 
+!STACK 1
+Java Model Exception: Core Exception [code 77] Invalid project description.
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:52)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5749)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5706)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:114)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:221)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: OK
+Contains: /home/shiva/Documents/Code/GIT/OpenSource/ELK/elk-demo overlaps the workspace location: /home/shiva/Documents/Code/GIT/OpenSource/ELK/elk-demo/~/.vscode-root/User/workspaceStorage/a7a95f480a9d55f0b91e976d3df2a656/redhat.java/jdt_ws
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.create(ProjectConfigurationManager.java:996)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$1.call(ProjectConfigurationManager.java:162)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$1.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:143)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:133)
+	at org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporter.importToWorkspace(MavenProjectImporter.java:153)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:134)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.access$1(ProjectsManager.java:128)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager$2.run(ProjectsManager.java:122)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5749)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5706)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:114)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:221)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: OK
+Contains: /home/shiva/Documents/Code/GIT/OpenSource/ELK/elk-demo overlaps the workspace location: /home/shiva/Documents/Code/GIT/OpenSource/ELK/elk-demo/~/.vscode-root/User/workspaceStorage/a7a95f480a9d55f0b91e976d3df2a656/redhat.java/jdt_ws
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2018-10-07 21:10:12.902
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2018-10-07 21:10:12.902
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2018-10-07 21:10:12.902
+!MESSAGE /home/shiva/Documents/Code/GIT/OpenSource/ELK/elk-demo overlaps the workspace location: /home/shiva/Documents/Code/GIT/OpenSource/ELK/elk-demo/~/.vscode-root/User/workspaceStorage/a7a95f480a9d55f0b91e976d3df2a656/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:10:13.117
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:10:13.120
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:10:13.128
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:10:13.150
+!MESSAGE >>New configuration: {java={home=null, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={updateBuildConfiguration=automatic, maven={userSettings=null}}, trace={server=off}, import={gradle={enabled=true}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, settings={url=null, profile=null}, comments={enabled=true}, onType={enabled=true}}, saveActions={organizeImports=false}, contentProvider={preferred=null}, autobuild={enabled=true}, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, debug={logLevel=warn, settings={showHex=false, showStaticVariables=true, showQualifiedNames=false, maxStringLength=0.0, enableHotCodeReplace=true}}, test={report={position=sideView}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:10:20.041
+!MESSAGE >> workspace/executeCommand sts.java.addClasspathListener
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:10:45.630
+!MESSAGE >> workspace/executeCommand vscode.java.updateDebugSettings
+
+!ENTRY java-debug 1 0 2018-10-07 21:10:45.967
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:10:45.982
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:10:46.989
+!MESSAGE >> workspace/executeCommand vscode.java.validateLaunchConfig
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:11:15.980
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:11:16.986
+!MESSAGE >> workspace/executeCommand vscode.java.validateLaunchConfig
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:11:51.644
+!MESSAGE >> workspace/executeCommand vscode.java.updateDebugSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:11:51.831
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:11:52.841
+!MESSAGE >> workspace/executeCommand vscode.java.validateLaunchConfig
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:12:38.542
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:12:38.561
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:12:38.598
+!MESSAGE >>New configuration: {java={home=null, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={updateBuildConfiguration=interactive, maven={userSettings=null}}, trace={server=off}, import={gradle={enabled=true}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, settings={url=null, profile=null}, comments={enabled=true}, onType={enabled=true}}, saveActions={organizeImports=false}, contentProvider={preferred=null}, autobuild={enabled=true}, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, debug={logLevel=warn, settings={showHex=false, showStaticVariables=true, showQualifiedNames=false, maxStringLength=0.0, enableHotCodeReplace=true}}, test={report={position=sideView}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:12:55.049
+!MESSAGE >> workspace/executeCommand vscode.java.updateDebugSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:12:55.061
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainClass
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:12:59.939
+!MESSAGE >> workspace/executeCommand vscode.java.updateDebugSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:12:59.942
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:13:00.946
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainClass
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:13:57.929
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:13:59.175
+!MESSAGE Classpath is incomplete. Only syntax errors will be reported for file:///home/shiva/Documents/Code/GIT/OpenSource/ELK/elk-demo/src/main/java/org/codeandtech/elkdemo/logaggregation/demo/service/ELKDemoController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:13:59.956
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:13:59.971
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:13:59.975
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:13:59.976
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.all
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:13:59.976
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:01.006
+!MESSAGE begin problem for /ELKDemoController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:01.008
+!MESSAGE TODO Auto-generated catch block is of type Task
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:01.008
+!MESSAGE 1 problems reported for /ELKDemoController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:01.011
+!MESSAGE Reconciled 0, validated: 1. Took 928 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:01.148
+!MESSAGE >> workspace/executeCommand vscode.java.test.project.info
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:01.156
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:01.239
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:01.324
+!MESSAGE >> workspace/executeCommand vscode.java.test.runtime.classpath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:01.419
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:01.447
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:01.447
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:01.476
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:12.348
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:12.538
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:12.540
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:12.548
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:13.552
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:13.844
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:14.154
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:16.880
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:17.327
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:17.841
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:17.942
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:18.591
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:19.000
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:19.239
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:24.772
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:24.831
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:24.963
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:24.964
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:24.965
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:24.991
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:26.099
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:33.801
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:33.810
+!MESSAGE Classpath is incomplete. Only syntax errors will be reported for file:///home/shiva/Documents/Code/GIT/OpenSource/ELK/elk-demo/src/main/java/org/codeandtech/elkdemo/logaggregation/demo/service/ELKDemoServiceApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:33.868
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:33.886
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:34.240
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:34.241
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:34.247
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:34.366
+!MESSAGE begin problem for /ELKDemoController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:34.367
+!MESSAGE TODO Auto-generated catch block is of type Task
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:34.367
+!MESSAGE 1 problems reported for /ELKDemoController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:34.377
+!MESSAGE begin problem for /ELKDemoServiceApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:34.383
+!MESSAGE 0 problems reported for /ELKDemoServiceApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:34.384
+!MESSAGE Reconciled 0, validated: 2. Took 96 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:34.752
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:37.835
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:38.609
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:40.396
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:40.723
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:40.725
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:40.732
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:40.733
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:40.780
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:41.125
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:41.126
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:41.135
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:41.141
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:41.249
+!MESSAGE begin problem for /ELKDemoController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:41.250
+!MESSAGE TODO Auto-generated catch block is of type Task
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:41.251
+!MESSAGE 1 problems reported for /ELKDemoController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:41.271
+!MESSAGE begin problem for /ELKDemoServiceApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:41.271
+!MESSAGE 0 problems reported for /ELKDemoServiceApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:41.273
+!MESSAGE Reconciled 0, validated: 2. Took 90 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:41.335
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:41.752
+!MESSAGE >> document/willSaveWailUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:41.822
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:42.088
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:42.092
+!MESSAGE >> workspace/executeCommand vscode.java.test.fetch
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:42.092
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:42.104
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:44.856
+!MESSAGE >> workspace/executeCommand vscode.java.updateDebugSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:14:44.860
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2018-10-07 21:14:44.888
+!MESSAGE Error occured while building workspace. Details: 
+message: The import org.slf4j cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import ch cannot be resolved;code: 268435846
+message: RestController cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: LoggerFactory cannot be resolved;code: 570425394
+message: Value cannot be resolved to a type;code: 16777218
+message: RequestMapping cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: RequestMapping cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: SpringBootApplication cannot be resolved to a type;code: 16777218
+message: ComponentScan cannot be resolved to a type;code: 16777218
+message: SpringApplication cannot be resolved;code: 570425394
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:15:28.989
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:15:29.279
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:16:36.434
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:16:42.812
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:16:43.109
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:19:02.133
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:20:15.371
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:20:19.874
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:20:25.250
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2018-10-07 21:20:25.255
+!MESSAGE Error occured while building workspace. Details: 
+message: The import org.slf4j cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import ch cannot be resolved;code: 268435846
+message: RestController cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: LoggerFactory cannot be resolved;code: 570425394
+message: Value cannot be resolved to a type;code: 16777218
+message: RequestMapping cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: RequestMapping cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: SpringBootApplication cannot be resolved to a type;code: 16777218
+message: ComponentScan cannot be resolved to a type;code: 16777218
+message: SpringApplication cannot be resolved;code: 570425394
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:21:07.285
+!MESSAGE >> workspace/executeCommand vscode.java.updateDebugSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:21:07.288
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2018-10-07 21:21:07.291
+!MESSAGE Error occured while building workspace. Details: 
+message: The import org.slf4j cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import ch cannot be resolved;code: 268435846
+message: RestController cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: LoggerFactory cannot be resolved;code: 570425394
+message: Value cannot be resolved to a type;code: 16777218
+message: RequestMapping cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: RequestMapping cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: SpringBootApplication cannot be resolved to a type;code: 16777218
+message: ComponentScan cannot be resolved to a type;code: 16777218
+message: SpringApplication cannot be resolved;code: 570425394
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:22:29.776
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:22:32.036
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2018-10-07 21:22:32.047
+!MESSAGE Error occured while building workspace. Details: 
+message: The import org.slf4j cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import ch cannot be resolved;code: 268435846
+message: RestController cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: LoggerFactory cannot be resolved;code: 570425394
+message: Value cannot be resolved to a type;code: 16777218
+message: RequestMapping cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: RequestMapping cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: SpringBootApplication cannot be resolved to a type;code: 16777218
+message: ComponentScan cannot be resolved to a type;code: 16777218
+message: SpringApplication cannot be resolved;code: 570425394
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:22:40.368
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2018-10-07 21:22:40.372
+!MESSAGE Error occured while building workspace. Details: 
+message: The import org.slf4j cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import ch cannot be resolved;code: 268435846
+message: RestController cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: LoggerFactory cannot be resolved;code: 570425394
+message: Value cannot be resolved to a type;code: 16777218
+message: RequestMapping cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: RequestMapping cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: SpringBootApplication cannot be resolved to a type;code: 16777218
+message: ComponentScan cannot be resolved to a type;code: 16777218
+message: SpringApplication cannot be resolved;code: 570425394
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:23:09.468
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:23:12.266
+!MESSAGE >> java/buildWorkspace (incremental)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2018-10-07 21:23:12.269
+!MESSAGE Error occured while building workspace. Details: 
+message: The import org.slf4j cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import ch cannot be resolved;code: 268435846
+message: RestController cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: LoggerFactory cannot be resolved;code: 570425394
+message: Value cannot be resolved to a type;code: 16777218
+message: RequestMapping cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: RequestMapping cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: SpringBootApplication cannot be resolved to a type;code: 16777218
+message: ComponentScan cannot be resolved to a type;code: 16777218
+message: SpringApplication cannot be resolved;code: 570425394
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:23:16.140
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:25:27.667
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:25:28.816
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:25:28.816
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2018-10-07 21:25:29.448
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

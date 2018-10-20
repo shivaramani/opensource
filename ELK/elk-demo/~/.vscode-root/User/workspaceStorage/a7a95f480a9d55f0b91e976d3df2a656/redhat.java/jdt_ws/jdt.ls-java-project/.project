@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>jdt.ls-java-project</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/org/codeandtech/elkdemo/logaggregation/demo/service/ELKDemoController.java</name>
+			<type>1</type>
+			<location>//home/shiva/Documents/Code/GIT/OpenSource/ELK/elk-demo/src/main/java/org/codeandtech/elkdemo/logaggregation/demo/service/ELKDemoController.java</location>
+		</link>
+		<link>
+			<name>src/org/codeandtech/elkdemo/logaggregation/demo/service/ELKDemoServiceApplication.java</name>
+			<type>1</type>
+			<location>//home/shiva/Documents/Code/GIT/OpenSource/ELK/elk-demo/src/main/java/org/codeandtech/elkdemo/logaggregation/demo/service/ELKDemoServiceApplication.java</location>
+		</link>
+	</linkedResources>
+</projectDescription>

@@ -1,0 +1,18 @@
+[2018-10-07 21:09:37.237] [renderer1] [info] no standard startup: not the explorer viewlet
+[2018-10-07 21:09:49.089] [renderer1] [info] no standard startup: not just one text editor
+[2018-10-07 21:11:13.730] [renderer1] [error] spawn EACCES: Error: spawn EACCES
+    at _errnoException (util.js:1024:11)
+    at ChildProcess.spawn (internal/child_process.js:323:11)
+    at ChildProcess.spawn (/home/shiva/.vscode/extensions/vscjava.vscode-java-pack-0.4.0/node_modules/async-listener/index.js:181:29)
+    at Object.exports.spawn (child_process.js:514:9)
+    at module.exports (/home/shiva/.vscode/extensions/vscjava.vscode-java-debug-0.13.0/node_modules/opn/index.js:76:26)
+    at openLink (/home/shiva/.vscode/extensions/vscjava.vscode-java-debug-0.13.0/out/src/utility.js:79:5)
+    at handleTroubleshooting (/home/shiva/.vscode/extensions/vscjava.vscode-java-debug-0.13.0/out/src/utility.js:83:9)
+    at Object.<anonymous> (/home/shiva/.vscode/extensions/vscjava.vscode-java-debug-0.13.0/out/src/utility.js:74:16)
+    at Generator.next (<anonymous>)
+    at fulfilled (/home/shiva/.vscode/extensions/vscjava.vscode-java-debug-0.13.0/out/src/utility.js:6:58)
+    at propagateAslWrapper (/home/shiva/.vscode/extensions/vscjava.vscode-java-pack-0.4.0/node_modules/async-listener/index.js:502:23)
+    at /home/shiva/.vscode/extensions/vscjava.vscode-java-pack-0.4.0/node_modules/async-listener/glue.js:188:31
+    at /home/shiva/.vscode/extensions/vscjava.vscode-java-pack-0.4.0/node_modules/async-listener/index.js:539:70
+    at /home/shiva/.vscode/extensions/vscjava.vscode-java-pack-0.4.0/node_modules/async-listener/glue.js:188:31
+    at <anonymous>

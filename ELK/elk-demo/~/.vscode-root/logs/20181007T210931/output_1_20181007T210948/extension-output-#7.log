@@ -1,0 +1,7 @@
+Activating 'vscode-spring-boot' extension
+Found java exe: /usr/lib/jvm/java-8-oracle/bin/java
+isJavaEightOrHigher => true
+Redirecting server logs to /tmp/vscode-spring-boot-1538964614861.log
+ERR: Redirecting log output to: /tmp/vscode-spring-boot-1538964614861.log
+
+Child process connected on port 45556

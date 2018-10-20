@@ -1,0 +1,2 @@
+07-Oct-18 21:23:57.700 INFO  [main] o.c.e.l.d.s.ELKDemoServiceApplication [SpringApplication.java:597] The following profiles are active: dev
+07-Oct-18 21:24:06.849 INFO  [main] o.c.e.l.d.s.ELKDemoServiceApplication [StartupInfoLogger.java:57] Started ELKDemoServiceApplication in 15.68 seconds (JVM running for 16.306)

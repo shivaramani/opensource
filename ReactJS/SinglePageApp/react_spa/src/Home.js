@@ -1,6 +1,8 @@
 import React, { Component } from "react";
+
  
 class Home extends Component {
+  
   render() {
     return (
       <div>
@@ -8,6 +10,7 @@ class Home extends Component {
         <p>This content comes from the home js</p>
  
         <p>Additional Contents</p>
+
       </div>
     );
   }

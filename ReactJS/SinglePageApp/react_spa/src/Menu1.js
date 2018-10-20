@@ -1,5 +1,6 @@
    import React, { Component } from "react";
 import { render } from 'react-dom';
+import { Route } from 'react-router-dom'
 
 export default class Menu1 extends Component {
   
@@ -99,6 +100,17 @@ export default class Menu1 extends Component {
                   )
                 }
             </div>
+          </div>
+          <div>
+            <br/>                        
+                <Route render={({ history}) => (
+                  <button
+                    type='button'
+                    onClick={() => { history.push('/contact?productId=1') }}
+                  >
+                    Contact
+                  </button>
+                )} />
           </div>
         </div>
       </div>

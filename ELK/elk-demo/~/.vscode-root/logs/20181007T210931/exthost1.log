@@ -1,0 +1,116 @@
+[2018-10-07 21:09:39.924] [exthost1] [info] extension host started
+[2018-10-07 21:09:39.968] [exthost1] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:39.969] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/out/extension
+[2018-10-07 21:09:40.024] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:40.024] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2018-10-07 21:09:40.083] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:40.083] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2018-10-07 21:09:40.555] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:40.555] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-10-07 21:09:40.661] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:40.661] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/search-rg/out/extension
+[2018-10-07 21:09:40.746] [exthost1] [info] ExtensionService#_doActivateExtension alefragnani.project-manager {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:40.746] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/alefragnani.project-manager-9.0.1/out/src/extension
+[2018-10-07 21:09:40.902] [exthost1] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:40.902] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/christian-kohler.path-intellisense-1.4.2/out/src/extension
+[2018-10-07 21:09:40.959] [exthost1] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:40.959] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/dbaeumer.vscode-eslint-1.6.0/client/out/extension
+[2018-10-07 21:09:41.409] [exthost1] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:41.409] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/eamodio.gitlens-8.5.6/out/extension
+[2018-10-07 21:09:42.122] [exthost1] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:42.122] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/editorconfig.editorconfig-0.12.4/out/src/editorConfigMain
+[2018-10-07 21:09:42.228] [exthost1] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:42.228] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/esbenp.prettier-vscode-1.6.1/out/src/extension
+[2018-10-07 21:09:42.630] [exthost1] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:42.630] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/formulahendry.auto-close-tag-0.5.6/out/src/extension
+[2018-10-07 21:09:42.651] [exthost1] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:42.651] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/formulahendry.auto-rename-tag-0.0.15/out/src/extension
+[2018-10-07 21:09:42.670] [exthost1] [info] ExtensionService#_doActivateExtension infinity1207.angular2-switcher {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:42.670] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/infinity1207.angular2-switcher-0.1.9/out/src/extension
+[2018-10-07 21:09:42.680] [exthost1] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:42.680] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/ms-vsliveshare.vsliveshare-0.3.735/out/src/extension
+[2018-10-07 21:09:45.250] [exthost1] [info] ExtensionService#_doActivateExtension schneiderpat.aspnet-helper {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:45.250] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/schneiderpat.aspnet-helper-0.6.4/out/src/extension
+[2018-10-07 21:09:45.429] [exthost1] [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:45.429] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/wayou.vscode-todo-highlight-1.0.4/src/extension
+[2018-10-07 21:09:45.453] [exthost1] [info] eager extensions activated
+[2018-10-07 21:09:45.453] [exthost1] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments {"startup":false,"activationEvent":"onLanguage:plaintext"}
+[2018-10-07 21:09:45.453] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/aaron-bond.better-comments-2.0.1/out/extension
+[2018-10-07 21:09:45.885] [exthost1] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"activationEvent":"onLanguage:html"}
+[2018-10-07 21:09:45.885] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/html-language-features/client/dist/htmlMain
+[2018-10-07 21:09:46.285] [exthost1] [info] ExtensionService#_doActivateExtension Angular.ng-template {"startup":false,"activationEvent":"onLanguage:html"}
+[2018-10-07 21:09:46.285] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/angular.ng-template-0.1.10/out/extension
+[2018-10-07 21:09:50.230] [exthost1] [info] extension host started
+[2018-10-07 21:09:50.281] [exthost1] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:50.281] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/debug-auto-launch/out/extension
+[2018-10-07 21:09:50.293] [exthost1] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:50.293] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/emmet/dist/extension
+[2018-10-07 21:09:50.340] [exthost1] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:50.340] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/git/dist/main
+[2018-10-07 21:09:50.516] [exthost1] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:50.516] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/merge-conflict/out/extension
+[2018-10-07 21:09:50.530] [exthost1] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:50.530] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/search-rg/out/extension
+[2018-10-07 21:09:50.536] [exthost1] [info] ExtensionService#_doActivateExtension alefragnani.project-manager {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:50.536] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/alefragnani.project-manager-9.0.1/out/src/extension
+[2018-10-07 21:09:50.552] [exthost1] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:50.552] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/christian-kohler.path-intellisense-1.4.2/out/src/extension
+[2018-10-07 21:09:50.562] [exthost1] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:50.562] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/dbaeumer.vscode-eslint-1.6.0/client/out/extension
+[2018-10-07 21:09:50.629] [exthost1] [info] ExtensionService#_doActivateExtension eamodio.gitlens {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:50.629] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/eamodio.gitlens-8.5.6/out/extension
+[2018-10-07 21:09:50.838] [exthost1] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:50.838] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/editorconfig.editorconfig-0.12.4/out/src/editorConfigMain
+[2018-10-07 21:09:50.874] [exthost1] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:50.874] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/esbenp.prettier-vscode-1.6.1/out/src/extension
+[2018-10-07 21:09:51.061] [exthost1] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:51.061] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/formulahendry.auto-close-tag-0.5.6/out/src/extension
+[2018-10-07 21:09:51.062] [exthost1] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:51.062] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/formulahendry.auto-rename-tag-0.0.15/out/src/extension
+[2018-10-07 21:09:51.064] [exthost1] [info] ExtensionService#_doActivateExtension infinity1207.angular2-switcher {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:51.064] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/infinity1207.angular2-switcher-0.1.9/out/src/extension
+[2018-10-07 21:09:51.066] [exthost1] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:51.066] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/ms-vsliveshare.vsliveshare-0.3.735/out/src/extension
+[2018-10-07 21:09:51.659] [exthost1] [info] ExtensionService#_doActivateExtension schneiderpat.aspnet-helper {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:51.659] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/schneiderpat.aspnet-helper-0.6.4/out/src/extension
+[2018-10-07 21:09:51.706] [exthost1] [info] ExtensionService#_doActivateExtension wayou.vscode-todo-highlight {"startup":true,"activationEvent":"*"}
+[2018-10-07 21:09:51.706] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/wayou.vscode-todo-highlight-1.0.4/src/extension
+[2018-10-07 21:09:51.712] [exthost1] [info] ExtensionService#_doActivateExtension aaron-bond.better-comments {"startup":false,"activationEvent":"onLanguage:plaintext"}
+[2018-10-07 21:09:51.712] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/aaron-bond.better-comments-2.0.1/out/extension
+[2018-10-07 21:09:51.730] [exthost1] [info] ExtensionService#_doActivateExtension redhat.java {"startup":true,"activationEvent":"workspaceContains:pom.xml"}
+[2018-10-07 21:09:51.730] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/redhat.java-0.32.0/out/src/extension
+[2018-10-07 21:09:52.141] [exthost1] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack {"startup":true,"activationEvent":"workspaceContains:pom.xml"}
+[2018-10-07 21:09:52.141] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/vscjava.vscode-java-pack-0.4.0/out/extension
+[2018-10-07 21:09:54.741] [exthost1] [info] ExtensionService#_doActivateExtension vscjava.vscode-maven {"startup":true,"activationEvent":"workspaceContains:**/pom.xml"}
+[2018-10-07 21:09:54.741] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/vscjava.vscode-maven-0.11.0/out/extension
+[2018-10-07 21:09:57.344] [exthost1] [info] eager extensions activated
+[2018-10-07 21:10:12.925] [exthost1] [info] ExtensionService#_doActivateExtension Pivotal.vscode-spring-boot {"startup":false,"activationEvent":"onLanguage:spring-boot-properties"}
+[2018-10-07 21:10:12.926] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/pivotal.vscode-spring-boot-1.0.0/out/lib/Main
+[2018-10-07 21:10:37.591] [exthost1] [info] ExtensionService#_doActivateExtension redhat.vscode-yaml {"startup":false,"activationEvent":"onDebug"}
+[2018-10-07 21:10:37.591] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/redhat.vscode-yaml-0.0.17/out/src/extension
+[2018-10-07 21:10:37.901] [exthost1] [info] ExtensionService#_doActivateExtension ms-vscode.csharp {"startup":false,"activationEvent":"onDebug"}
+[2018-10-07 21:10:37.901] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/ms-vscode.csharp-1.16.1/out/src/main
+[2018-10-07 21:10:40.310] [exthost1] [info] ExtensionService#_doActivateExtension ms-kubernetes-tools.vscode-kubernetes-tools {"startup":false,"activationEvent":"onDebug"}
+[2018-10-07 21:10:40.310] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-0.1.14/out/src/extension
+[2018-10-07 21:10:44.350] [exthost1] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug {"startup":false,"activationEvent":"onDebugResolve:java"}
+[2018-10-07 21:10:44.350] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/vscjava.vscode-java-debug-0.13.0/out/src/extension
+[2018-10-07 21:10:49.833] [exthost1] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-10-07 21:10:49.833] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/configuration-editing/out/extension
+[2018-10-07 21:10:49.953] [exthost1] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-10-07 21:10:49.953] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/json-language-features/client/dist/jsonMain
+[2018-10-07 21:10:50.394] [exthost1] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2018-10-07 21:10:50.394] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2018-10-07 21:12:10.208] [exthost1] [info] ExtensionService#_doActivateExtension pflannery.vscode-versionlens {"startup":false,"activationEvent":"onLanguage:xml"}
+[2018-10-07 21:12:10.208] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/pflannery.vscode-versionlens-0.21.2/out/extension-bundle.js
+[2018-10-07 21:12:10.345] [exthost1] [info] ExtensionService#_doActivateExtension tintoy.msbuild-project-tools {"startup":false,"activationEvent":"onLanguage:xml"}
+[2018-10-07 21:12:10.345] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/tintoy.msbuild-project-tools-0.2.42/out/src/extension/extension
+[2018-10-07 21:12:44.221] [exthost1] [info] ExtensionService#_doActivateExtension ms-vscode.node-debug2 {"startup":false,"activationEvent":"onDebugInitialConfigurations"}
+[2018-10-07 21:12:44.221] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/ms-vscode.node-debug2/out/src/extension
+[2018-10-07 21:12:44.329] [exthost1] [info] ExtensionService#_doActivateExtension msjsdiag.debugger-for-chrome {"startup":false,"activationEvent":"onDebugInitialConfigurations"}
+[2018-10-07 21:12:44.329] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/msjsdiag.debugger-for-chrome-4.10.2/out/src/extension
+[2018-10-07 21:12:45.725] [exthost1] [info] ExtensionService#_doActivateExtension ms-vscode.node-debug {"startup":false,"activationEvent":"onDebugInitialConfigurations"}
+[2018-10-07 21:12:45.725] [exthost1] [info] ExtensionService#loadCommonJSModule /usr/share/code/resources/app/extensions/ms-vscode.node-debug/out/node/extension/extension.js
+[2018-10-07 21:12:45.786] [exthost1] [info] ExtensionService#_doActivateExtension PeterJausovec.vscode-docker {"startup":false,"activationEvent":"onDebugInitialConfigurations"}
+[2018-10-07 21:12:45.786] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/peterjausovec.vscode-docker-0.3.1/out/dockerExtension
+[2018-10-07 21:13:51.935] [exthost1] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test {"startup":false,"activationEvent":"onLanguage:java"}
+[2018-10-07 21:13:51.935] [exthost1] [info] ExtensionService#loadCommonJSModule /home/shiva/.vscode/extensions/vscjava.vscode-java-test-0.9.0/out/src/extension

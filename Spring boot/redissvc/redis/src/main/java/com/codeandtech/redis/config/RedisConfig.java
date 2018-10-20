@@ -27,6 +27,10 @@ public class RedisConfig {
     public RedisTemplate<String, Object> redisTemplate(){
         final RedisTemplate<String, Object> template = new RedisTemplate<String, Object>();
         
+        //template.setConnectionFactory(jedisConnectionFactory());
+        String awsRedis = "codeandtech-cache.wg6yoq.0001.usw2.cache.amazonaws.com";
+        jedisConnectionFactory().setHostName(awsRedis);
+        
         template.setConnectionFactory(jedisConnectionFactory());
         template.setValueSerializer(new GenericToStringSerializer<Object>(Object.class));
         

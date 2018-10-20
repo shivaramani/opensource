@@ -1,0 +1,172 @@
+[Error - 9:10:12 PM] Oct 7, 2018 9:10:12 PM Initialization failed 
+Invalid project description.
+Java Model Exception: Core Exception [code 77] Invalid project description.
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:52)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5749)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5706)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:114)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:221)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: OK
+Contains: /home/shiva/Documents/Code/GIT/OpenSource/ELK/elk-demo overlaps the workspace location: /home/shiva/Documents/Code/GIT/OpenSource/ELK/elk-demo/~/.vscode-root/User/workspaceStorage/a7a95f480a9d55f0b91e976d3df2a656/redhat.java/jdt_ws
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:173)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:57)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:267)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:251)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.create(ProjectConfigurationManager.java:996)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$1.call(ProjectConfigurationManager.java:162)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager$1.call(ProjectConfigurationManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:143)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:133)
+	at org.eclipse.jdt.ls.core.internal.managers.MavenProjectImporter.importToWorkspace(MavenProjectImporter.java:153)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.importProjects(ProjectsManager.java:134)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.access$1(ProjectsManager.java:128)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager$2.run(ProjectsManager.java:122)
+	at org.eclipse.jdt.internal.core.BatchOperation.executeOperation(BatchOperation.java:41)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5749)
+	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5706)
+	at org.eclipse.jdt.ls.core.internal.managers.ProjectsManager.initializeProjects(ProjectsManager.java:114)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler$1.runInWorkspace(InitHandler.java:221)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: OK
+Contains: /home/shiva/Documents/Code/GIT/OpenSource/ELK/elk-demo overlaps the workspace location: /home/shiva/Documents/Code/GIT/OpenSource/ELK/elk-demo/~/.vscode-root/User/workspaceStorage/a7a95f480a9d55f0b91e976d3df2a656/redhat.java/jdt_ws
+
+[Error - 9:14:44 PM] Oct 7, 2018 9:14:44 PM Error occured while building workspace. Details: 
+message: The import org.slf4j cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import ch cannot be resolved;code: 268435846
+message: RestController cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: LoggerFactory cannot be resolved;code: 570425394
+message: Value cannot be resolved to a type;code: 16777218
+message: RequestMapping cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: RequestMapping cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: SpringBootApplication cannot be resolved to a type;code: 16777218
+message: ComponentScan cannot be resolved to a type;code: 16777218
+message: SpringApplication cannot be resolved;code: 570425394
+[Error - 9:20:25 PM] Oct 7, 2018 9:20:25 PM Error occured while building workspace. Details: 
+message: The import org.slf4j cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import ch cannot be resolved;code: 268435846
+message: RestController cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: LoggerFactory cannot be resolved;code: 570425394
+message: Value cannot be resolved to a type;code: 16777218
+message: RequestMapping cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: RequestMapping cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: SpringBootApplication cannot be resolved to a type;code: 16777218
+message: ComponentScan cannot be resolved to a type;code: 16777218
+message: SpringApplication cannot be resolved;code: 570425394
+[Error - 9:21:07 PM] Oct 7, 2018 9:21:07 PM Error occured while building workspace. Details: 
+message: The import org.slf4j cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import ch cannot be resolved;code: 268435846
+message: RestController cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: LoggerFactory cannot be resolved;code: 570425394
+message: Value cannot be resolved to a type;code: 16777218
+message: RequestMapping cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: RequestMapping cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: SpringBootApplication cannot be resolved to a type;code: 16777218
+message: ComponentScan cannot be resolved to a type;code: 16777218
+message: SpringApplication cannot be resolved;code: 570425394
+[Error - 9:22:32 PM] Oct 7, 2018 9:22:32 PM Error occured while building workspace. Details: 
+message: The import org.slf4j cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import ch cannot be resolved;code: 268435846
+message: RestController cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: LoggerFactory cannot be resolved;code: 570425394
+message: Value cannot be resolved to a type;code: 16777218
+message: RequestMapping cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: RequestMapping cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: SpringBootApplication cannot be resolved to a type;code: 16777218
+message: ComponentScan cannot be resolved to a type;code: 16777218
+message: SpringApplication cannot be resolved;code: 570425394
+[Error - 9:22:40 PM] Oct 7, 2018 9:22:40 PM Error occured while building workspace. Details: 
+message: The import org.slf4j cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import ch cannot be resolved;code: 268435846
+message: RestController cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: LoggerFactory cannot be resolved;code: 570425394
+message: Value cannot be resolved to a type;code: 16777218
+message: RequestMapping cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: RequestMapping cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: SpringBootApplication cannot be resolved to a type;code: 16777218
+message: ComponentScan cannot be resolved to a type;code: 16777218
+message: SpringApplication cannot be resolved;code: 570425394
+[Error - 9:23:12 PM] Oct 7, 2018 9:23:12 PM Error occured while building workspace. Details: 
+message: The import org.slf4j cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import ch cannot be resolved;code: 268435846
+message: RestController cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: LoggerFactory cannot be resolved;code: 570425394
+message: Value cannot be resolved to a type;code: 16777218
+message: RequestMapping cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: RequestMapping cannot be resolved to a type;code: 16777218
+message: Logger cannot be resolved to a type;code: 16777218
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: The import org.springframework cannot be resolved;code: 268435846
+message: SpringBootApplication cannot be resolved to a type;code: 16777218
+message: ComponentScan cannot be resolved to a type;code: 16777218
+message: SpringApplication cannot be resolved;code: 570425394

@@ -1,0 +1,236 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /home/shiva/Documents/Code/GIT/OpenSource
+> git status -z -u
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :ELK/elk-demo/src/main/resources/application.properties
+> git check-ignore -z --stdin
+> git show :ELK/elk-demo/.vscode/launch.json
+> git check-ignore -z --stdin
+> git show :ELK/elk-demo/src/main/resources/application.properties
+> git show :ELK/elk-demo/.vscode/launch.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git show :ELK/elk-demo/pom.xml
+> git show :ELK/elk-demo/pom.xml
+> git show :ELK/elk-demo/.vscode/launch.json
+> git show :ELK/elk-demo/pom.xml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :ELK/elk-demo/.vscode/settings.json
+> git show :ELK/elk-demo/pom.xml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :ELK/elk-demo/src/main/resources/application.properties
+> git show :ELK/elk-demo/.vscode/launch.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git ls-tree -l HEAD -- /home/shiva/Documents/Code/GIT/OpenSource/ELK/elk-demo/.vscode/launch.json
+> git show e6bba8b07ef9f2e7110d12c5ec25d8b8237afe56
+> git show HEAD:ELK/elk-demo/.vscode/launch.json
+> git show :ELK/elk-demo/.vscode/launch.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :ELK/elk-demo/src/main/java/org/codeandtech/elkdemo/logaggregation/demo/service/ELKDemoController.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :ELK/elk-demo/src/main/resources/application.properties
+> git show :ELK/elk-demo/.vscode/launch.json
+> git show :ELK/elk-demo/src/main/java/org/codeandtech/elkdemo/logaggregation/demo/service/ELKDemoController.java
+> git show :ELK/elk-demo/src/main/resources/application.properties
+> git show :ELK/elk-demo/src/main/java/org/codeandtech/elkdemo/logaggregation/demo/service/ELKDemoController.java
+> git show :ELK/elk-demo/.vscode/launch.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :ELK/elk-demo/src/main/java/org/codeandtech/elkdemo/logaggregation/demo/service/ELKDemoServiceApplication.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :ELK/elk-demo/.vscode/launch.json
+> git ls-tree -l HEAD -- /home/shiva/Documents/Code/GIT/OpenSource/ELK/elk-demo/.vscode/launch.json
+> git show e6bba8b07ef9f2e7110d12c5ec25d8b8237afe56
+> git ls-tree -l HEAD -- /home/shiva/Documents/Code/GIT/OpenSource/ELK/elk-demo/.vscode/settings.json
+> git show e0f15db2eb22b5d618150277e48b741f8fdd277a
+> git show HEAD:ELK/elk-demo/.vscode/settings.json
+> git ls-tree -l HEAD -- /home/shiva/Documents/Code/GIT/OpenSource/ELK/elk-demo/src/main/java/org/codeandtech/elkdemo/logaggregation/demo/service/ELKDemoServiceApplication.java
+> git show d1814096d4c726b71ccb6c2b60dfb849b0686305
+> git show HEAD:ELK/elk-demo/src/main/java/org/codeandtech/elkdemo/logaggregation/demo/service/ELKDemoServiceApplication.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git ls-tree -l HEAD -- /home/shiva/Documents/Code/GIT/OpenSource/ELK/elk-demo/target/classes/org/codeandtech/elkdemo/logaggregation/demo/service/ELKDemoController.class
+> git show dcf9a22e6441f128a05c0d0d597180f269feda89
+> git ls-tree -l HEAD -- /home/shiva/Documents/Code/GIT/OpenSource/ELK/elk-demo/src/main/java/org/codeandtech/elkdemo/logaggregation/demo/service/ELKDemoServiceApplication.java
+> git status -z -u
+> git show d1814096d4c726b71ccb6c2b60dfb849b0686305
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git show HEAD:ELK/elk-demo/src/main/java/org/codeandtech/elkdemo/logaggregation/demo/service/ELKDemoServiceApplication.java
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :ELK/elk-demo/.vscode/launch.json
+> git show :ELK/elk-demo/pom.xml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :ELK/elk-demo/pom.xml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :ELK/elk-demo/pom.xml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git ls-tree -l HEAD -- /home/shiva/Documents/Code/GIT/OpenSource/ELK/elk-demo/pom.xml
+> git show 64bbab73a8abd8321a77fc025403f5fc5e5cde5b
+> git show HEAD:ELK/elk-demo/pom.xml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+git.stage 3
+git.stage.scmResources 3
+> git add -A -- /home/shiva/Documents/Code/GIT/OpenSource/ELK/elk-demo/pom.xml /home/shiva/Documents/Code/GIT/OpenSource/ELK/elk-demo/.vscode/launch.json /home/shiva/Documents/Code/GIT/OpenSource/ELK/elk-demo/src/main/java/org/codeandtech/elkdemo/logaggregation/demo/service/ELKDemoServiceApplication.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git push origin master:master
+To https://github.com/shivaramani/opensource.git
+   10b6414..35945fe  master -> master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
